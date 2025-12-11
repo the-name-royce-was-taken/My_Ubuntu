@@ -1,0 +1,6 @@
+{
+  "name": "Ubuntu GNOME Desktop",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "forwardPorts": [8080, 5901],
+  "postCreateCommand": "bash .devcontainer/setup-desktop.sh"
+}
